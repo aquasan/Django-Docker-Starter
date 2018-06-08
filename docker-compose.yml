@@ -5,4 +5,4 @@ services:
     build: .
     ports: 
       - "8000:8000"
-    command: python ./docker/manage.py runserver
+    command: python ./django_project/manage.py runserver
